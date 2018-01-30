@@ -1,0 +1,20 @@
+How to Push and Pull: 
+
+$ git remote add origin {Refference Link Found on GitHub}
+//This creates an origin that you will use to connect when you push, pull, and commit your work
+
+$ git add {File Name, you can also do($ git add .) to select all the files}
+//Selects the files
+
+$ git commit -m "{Commit Message}"
+//Adds a commit message on what changes you have made
+
+$ git push -u origin master 
+//Pushes the repository to GitHub
+
+$ git clone {Refference Link Found on GitHub}
+//Creates the repoistory in the selected folder you currently in. IMPORTANT!!! If you have already cloned, you can't clone again.
+
+$ git pull origin master
+// Pulls all the updated information. IMPORTANT!!! Make sure to be inside the Repository Folder on your command line. (cd Desktop/RepositoryFolder
+
