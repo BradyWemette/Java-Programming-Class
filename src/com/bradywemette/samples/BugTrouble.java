@@ -31,6 +31,14 @@ public class BugTrouble {
 			
 			totalBugVolume = totalBugVolume + newBugVolume;
 			countWeeks++; 
+			
+			System.out.println("Starting with a roach population of " + startPopulation);
+			System.out.println("and a house with a volume of " + houseVolume + " cubic feet.");
+			System.out.println("after " + countWeeks + " weeks,");
+			System.out.println("the house will be filled with " + (int)population + " roahces.");
+			System.out.println("The will fill a volume of " + (int)totalBugVolume + " cubic feet.");
+			System.out.println("Better call Debugging Experts Inc.");
+			break; 
 		}
 		
 	}
